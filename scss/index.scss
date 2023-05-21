@@ -1,0 +1,64 @@
+@import "inicio";
+@import "navbar";
+@import "proyectos";
+@import "contacto";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #A78976 #1F1F1F;
+}
+
+html::-webkit-scrollbar {
+    width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #1F1F1F;
+}
+
+
+html::-webkit-scrollbar-thumb {
+    background-color: #A78976;
+    height: 20vh;
+}
+
+::selection{
+    background-color: #776254;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+// ___________________________
+
+
+
+body{
+    background: #313131;
+    transition: .3s ease all;
+    padding: 0px;
+
+    &.dark{
+        background: #ededed;
+
+    }
+    // .conteiner{
+    //     background: #f9f9f9;
+
+    //     &.dark{
+    //         background: #212121;
+    //     }
+    // }
+}
+#mail{
+    opacity: 0;
+}
